@@ -150,7 +150,7 @@
     top: 0;
     left: 0;
     z-index: -1;
-    border-radius: 0.16666667em;
+    border-radius: 0.9em;
     transition: width .3s;
   }
   .button-solid:hover:before {
