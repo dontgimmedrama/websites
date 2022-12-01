@@ -128,7 +128,7 @@
     background: var(--primary);
     line-height: 2.65;
     width: 9em;
-    border-radius: 0.16666667em;
+    border-radius: 0.4em;
     font-size: 0.9em;
     font-family: "Roboto", sans-serif;
     -webkit-transition: .2s ease;
