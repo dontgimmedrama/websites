@@ -12,7 +12,7 @@ main {
     padding-top: 5em;
     position: relative;
     z-index: 1;
-    background: url("/images/landing-mobile.jpg");
+    background: url("images/landing-mobile.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -109,7 +109,7 @@ main {
     padding: 6.15em 0 11.45em 0;
     z-index: 1;
     overflow: hidden;
-    background: url("/images/landing.jpg");
+    background: url("images/landing.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -153,7 +153,7 @@ main {
     position: relative;
   }
   #services .service {
-    background: #0e817c;
+    background: var(--shade);
     padding: 2.1em;
     width: 90%;
     margin: auto;
@@ -162,14 +162,14 @@ main {
     border-bottom: 0.05em solid rgba(73, 181, 176, 0.5);
   }
   #services .service:nth-of-type(2) {
-    background: #10625e;
+    background: var(--tint);
     width: 100%;
     box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
     order: 1;
     margin-bottom: 0;
   }
   #services .service:nth-of-type(2) .button-solid {
-    color: #10625e;
+    color: var(--tint);
   }
   #services .service:nth-of-type(2) .button-solid:before {
     background: var(--primary);
@@ -199,7 +199,7 @@ main {
   }
   #services .service .button-solid {
     background: #fff;
-    color: #10625e;
+    color: var(--tint);
   }
   #services .service .button-solid:hover {
     color: #fff;
