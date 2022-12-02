@@ -27,10 +27,10 @@
     <meta name="theme-color" content="#ffffff">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="/css/root.css">
-    <link rel="stylesheet" href="/css/contact.css">
-    <link rel="stylesheet" href="/css/dark.css">
-    <link rel="stylesheet" href="/css/dark-root-styles.css">
+    <link rel="stylesheet" href="css/root.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/dark.css">
+    <link rel="stylesheet" href="css/dark-root-styles.css">
 
     <title></title>
 </head>
@@ -43,9 +43,9 @@
         <!-- Mobile Nav Strip -->
         <div class="mobile-wrapper">
             <div class="mobile-nav container mobile-nav-container">
-                <img class="light" id="mobile-logo" src="/images/logo.svg" alt="mobile_company_logo" width="110" height="32">
+                <img class="light" id="mobile-logo" src="images/logo.png" alt="mobile_company_logo" width="110" height="32">
 
-                <img class="dark" id="mobile-logo" src="/images/logo-white.svg" alt="mobile_company_logo" width="110" height="32">
+                <img class="dark" id="mobile-logo" src="images/logowhite.png" alt="mobile_company_logo" width="110" height="32">
 
                 <!-- Hamburger Menu -->
                 <button aria-label="open the menu" id="menu-button" class="hamburger hamburger--spring" onclick="toggleNav()" type="button">
@@ -64,21 +64,21 @@
             <div class="navbar-menu">
                 <div id="side-menu" class=" side-nav">
                     <a class="nav-logo" href="/index.html">
-                        <img class="light" aria-hidden="true" decoding="async" src="images/logo.svg" alt="compnay logo" height="80">
-                        <img class="dark" aria-hidden="true" decoding="async" src="images/logo-white.svg" alt="compnay logo" height="80">
+                        <img class="light" aria-hidden="true" decoding="async" src="images/logo.png" alt="compnay logo" height="80">
+                        <img class="dark" aria-hidden="true" decoding="async" src="images/logowhite.png" alt="compnay logo" height="80">
                     </a>
                     <ul id="on-top" class="navbar-links">
-                        <li class="nav-li"><a class="link" href="/index.html">Home</a></li>
-                        <li class="nav-li"><a class="link" href="/about.html">About</a></li>
-                        <li class="nav-li"><a class="link" href="/index.html#services">Services</a></li>
-                        <!-- <li class="nav-li"><a class="link" href="html/portfolio.html">Portfolio</a></li> -->
-                        <li class="nav-li"><a class="link" href="/testimonials.html">Testimonials</a></li>
-                        <li class="nav-li"><a id="active-menu" class="link" href="/contact.html">Contact</a></li>
+                        <li class="nav-li"><a class="link" href="/index.html">Strona Główna</a></li>
+                        <li class="nav-li"><a class="link" href="/about.html">O Nas</a></li>
+                        <li class="nav-li"><a class="link" href="/index.html#services">Usługi</a></li>
+                        <li class="nav-li"><a class="link" href="cennik.html">Cennik</a></li>
+                        <li class="nav-li"><a class="link" href="/testimonials.html">Opinie Klientów</a></li>
+                        <li class="nav-li"><a id="active-menu" class="link" href="/contact.html">Kontakt</a></li>
                     </ul>
                 </div>
                 <button class="dark-mode-button top-dark-mode-button" aria-label="dark mode toggle">
-                    <img class="moon" aria-hidden="true" src="/images/moon.svg" alt="" width="24" height="24">
-                    <img class="sun" aria-hidden="true" src="/images/sun.svg" alt="" width="24" height="24">
+                    <img class="moon" aria-hidden="true" src="images/moon.svg" alt="" width="24" height="24">
+                    <img class="sun" aria-hidden="true" src="images/sun.svg" alt="" width="24" height="24">
                 </button>
             </div>
         </nav>
@@ -91,7 +91,7 @@
         <!-- ============================================ -->
     
         <section id="int-hero">
-            <h1 id="home-h">Contact Business</h2>
+            <h1 id="home-h">Napisz lub Zadzwoń</h2>
         </section>
 
         <!-- ============================================ -->
@@ -100,12 +100,12 @@
 
         <section id="form">
             <div class="left-section">
-                <span class="topper">Business Name</span>
-                <h2>Send a Message</h2>
-                <p>If you have any questions or concerns please feel free to reach out to us.  we respond to every call and email.</p>
+                <span class="topper">Dorabianie Kluczy</span>
+                <h2>Wyślij wiadomość</h2>
+                <p>Jeśli masz jakieś pytania lub wątpliwości, napisz do nas. Odpowiadamy na każdego maila i waidomość.</p>
                 <form id="contact" name="Contact Form" method="post" data-netlify-recaptcha="true" data-netlify="true">
                         <div class="input-group">
-                            <label for="name">Full Name</label>
+                            <label for="name">Imię</label>
                             <input id="name" aria-label="name" class="input1" name="name" placeholder="Full Name" type="text" tabindex="1" required>
                             <div aria-hidden="true" class="hover-box"></div>
                         </div>
@@ -117,46 +117,46 @@
                         </div>
 
                         <div class="input-group">
-                            <label for="phone">Phone</label>
+                            <label for="phone">Telefon</label>
                             <input id="phone" aria-label="phone number" class="input1" name="phone" placeholder="Phone Number" type="tel" tabindex="3" required>
                             <div aria-hidden="true" class="hover-box"></div>
                         </div>
                         <div class="input-group">
-                            <label for="location">Location</label>
+                            <label for="location">Miejscowość</label>
                             <input id="location" aria-label="location" class="input1 right" name="location" placeholder="Your Location" type="text" tabindex="4" required>
                             <div aria-hidden="true" class="hover-box"></div>
                         </div>
                         <div class="input-group">
-                            <label for="how">How did you hear about us</label>
+                            <label for="how">Skąd o nas wiesz?</label>
                             <input id="how" aria-label="how did you hear about us" name="hear" placeholder="How Did You Hear About Us" type="text" tabindex="5" required>
                             <div aria-hidden="true" class="hover-box"></div>
                         </div>
                         <div class="input-group textarea">
-                            <label for="message">Message</label>
+                            <label for="message">Wiadomość</label>
                             <textarea id="message" aria-label="write your message" name="message" placeholder="Tell us about what you need help with" tabindex="6" required></textarea>
                             <div aria-hidden="true" class="hover-box"></div>
                         </div>
                     <p class="form-submit">
-                        <button name="submit" type="submit" id="contact-submit" class="button-solid" data-submit="...Sending">Submit</button>
+                        <button name="submit" type="submit" id="contact-submit" class="button-solid" data-submit="...Sending">Wyślij</button>
                     </p>
                 </form>
             </div>
             <div class="contact-right">
                 <div class="info-group">
-                    <span class="heading">Location</span>
-                    <span class="info">Somewhere, TX</span>
+                    <span class="heading">Lokalizacja</span>
+                    <span class="info">Stroma 4/1a, Legnica</span>
                 </div>
                 <div class="info-group">
-                    <span class="heading">Phone</span>
-                    <a class="info" href="tel:555-213-9120">(555) 213-9120</a>
+                    <span class="heading">Telefon</span>
+                    <a class="info" href="tel:881502887">881 502 887</a>
                 </div>
                 <div class="info-group">
                     <span class="heading">Email</span>
-                    <a class="info" href="mailto:info@email.com">info@email.com</a>
+                    <a class="info" href="mailto:info@email.com">info@kluczelegnica.pl</a>
                 </div>
                 <div class="info-group">
-                    <span class="heading">Hours</span>
-                    <span class="info last">Mon to Sat: 9am to 7pm</span>
+                    <span class="heading">Godziny otwarcie</span>
+                    <span class="info last">Pon do Sob: 9 do 19</span>
                 </div>
             </div>
         </section>
@@ -170,34 +170,33 @@
     <footer id="footer">
         <div class="container">
             <div class="left-section">
-                <a class="logo" href=""><img loading="lazy" decoding="async" src="/images/logo-white.svg" alt="logo" width="293" height="91"></a>
+                <a class="logo" href=""><img loading="lazy" decoding="async" src="images/logowhite.png" alt="logo" width="293" height="91"></a>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, aut. Molestias delectus rem nihil distinctio nemo assumenda laudantium. Veritatis, natus.
-                </p>
+                    Bmw, Audi, VW, Mercedes, Toyota, KIA, Fiat, Citroen, Peugote, Land Rover, Rolls-Royce, Mitsubishi, Hyundai, Nissan, Dacia.                </p>
             </div>
             <div class="right-section">
                 <div class="lists">
                     <ul>
-                        <li><h2>Company</h2></li>
-                        <li><a href="/index.html">Home</a></li>
-                        <li><a href="/about.html">About Us</a></li>
-                        <li><a href="/contact.html">Services</a></li>
+                        <li><h2>Firma</h2></li>
+                        <li><a href="/index.html">Strona Główna</a></li>
+                        <li><a href="/about.html">O Nas</a></li>
+                        <li><a href="/contact.html">Usługi</a></li>
                     </ul>
                     <ul>
-                        <li><h2>Support</h2></li>
-                        <li><a href="/contact.html">Contact Us</a></li>
+                        <li><h2>Wsparcie</h2></li>
+                        <li><a href="/contact.html">Kontakt</a></li>
                     </ul>
                     <ul>
-                        <li><h2>Get in Touch</h2></li>
-                        <li><img loading="lazy" decoding="async" src="/images/pin.svg" alt="" width="24" height="24"><a href="" target="_blank">Somewhere, Tx</a></li>
-                        <li><img loading="lazy" decoding="async" src="/images/footer-phone.svg" alt="" width="24" height="24"><a href="tel:555-213-9120">(555) 213-9120</a></li>
-                        <li><img loading="lazy" decoding="async" src="/images/email.svg" alt="" width="24" height="24"><a href="mailto:info@email.com">info@email.com</a></li>
+                        <li><h2>Skontaktuj się</h2></li>
+                        <li><img loading="lazy" decoding="async" src="images/pin.svg" alt="" width="24" height="24"><a href="" target="_blank">Somewhere, Tx</a></li>
+                        <li><img loading="lazy" decoding="async" src="images/footer-phone.svg" alt="" width="24" height="24"><a href="tel:555-213-9120">(555) 213-9120</a></li>
+                        <li><img loading="lazy" decoding="async" src="images/email.svg" alt="" width="24" height="24"><a href="mailto:info@email.com">info@email.com</a></li>
                     </ul>
                 </div>
     
                 <div class="buttons">
                     <a class="button-solid" href="/contact.html" >
-                        Call to action button
+                        Zadzwoń
                     </a>
                 </div>
             </div>
