@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--Swap our for actual link-->
-    <link rel="canonical" href="https://www.company.com/about">
+    <link rel="canonical" href="https://www.company.com/reviews">
 
     <meta name="description" content="">
     <meta name="keywords" content="">
@@ -33,12 +33,12 @@
     <link rel="preload" as="font" type="font/woff2" href="fonts/roboto-v29-latin-700.woff2" crossorigin>
 
     <link rel="stylesheet" href="/css/root.css">
-    <link rel="stylesheet" href="/css/about.css">
+    <link rel="stylesheet" href="/css/reviews.css">
     <link rel="stylesheet" href="/css/dark.css">
 
     <!--Put analytics tag here at the bottom to prevent it from render blocking-->
 
-    <title>Company Name | About Us | Town and State</title>
+    <title>Company Name | Reviews | Town and State</title>
 </head>
 <body>
     <!--Screen reader skip main nav-->
@@ -69,9 +69,9 @@
             <nav id="navbar-menu">
                 <ul>
                     <li><a href="/index.html">Home</a></li>
-                    <li><a class="active" href="/about.html">About Us</a></li>
+                    <li><a href="/about.html">About Us</a></li>
                     <li><a href="/projects.html">Projects</a></li>
-                    <li><a href="/reviews.html">Reviews</a></li>
+                    <li><a class="active" href="/reviews.html">Reviews</a></li>
                     <li><a href="/contact.html">Contact</a></li>
                 </ul>
             </nav>
@@ -97,62 +97,106 @@
         <!-- ============================================ -->
     
         <section id="int-hero">
-            <h1 id="home-h">About Us</h1>
+            <h1 id="home-h">Our Reviews</h1>
             <picture>
                 <source media="(max-width: 600px)" srcset="/images/cabinets2-m.jpg">
                 <source media="(min-width: 601px)" srcset="/images/cabinets2.jpg">
-                <img aria-hidden="true" decoding="async" src="/images/cabinets2.jpg" alt="cabinets" width="400" height="662">
+                <img aria-hidden="true" loading="lazy" decoding="async" src="/images/cabinets2.jpg" alt="" width="400" height="662">
             </picture>
         </section>
 
         <!-- ============================================ -->
-        <!--                   About                      -->
+        <!--                  Reviews                     -->
         <!-- ============================================ -->
 
-        <section id="sidebyside" class="sidebyside">
+        <section id="reviews">
             <div class="container">
-                <div class="content">
-                    <h2 class="title">Lorem ipsum dolor sit amet consectetur.</h2>
+                <div class="review">
+                    <picture>
+                        <img class="profile" loading="lazy" decoding="async" src="/images/profile.svg" alt="" width="99" height="99">
+                     </picture>
                      <p>
-                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam debitis dolor consectetur dolorem inventore modi tenetur ex odit, amet beatae ad, doloribus tempora quae ab nulla minus temporibus at veritatis!
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed recusandae rerum unde similique ratione sapiente necessitatibus natus mollitia nam iusto.
                      </p>
-                     <p>
-                         <strong>List if you need it:</strong>
-                      </p>
-                     <ul>
-                        <li>
-                            <img aria-hidden="true" loading="lazy" decoding="async" src="/images/check.svg" alt="check mark" width="20" height="20">
-                            <span>List item about something</span>
-                        </li>
-                        <li>
-                            <img aria-hidden="true" loading="lazy" decoding="async" src="/images/check.svg" alt="check mark" width="20" height="20">
-                            <span>List item about something</span>
-                        </li>
-                        <li>
-                            <img aria-hidden="true" loading="lazy" decoding="async" src="/images/check.svg" alt="check mark" width="20" height="20">
-                            <span>List item about something</span>
-                        </li>
-                        <li>
-                            <img aria-hidden="true" loading="lazy" decoding="async" src="/images/check.svg" alt="check mark" width="20" height="20">
-                            <span>List item about something</span>
-                        </li>
-                        <li>
-                            <img aria-hidden="true" loading="lazy" decoding="async" src="/images/check.svg" alt="check mark" width="20" height="20">
-                            <span>List item about something</span>
-                        </li>
-                    </ul>
-                     <p>
-                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium saepe laborum nam consequuntur porro inventore odio? Quod autem alias ratione cum reiciendis qui quaerat, sequi voluptatum voluptatibus, iusto itaque sed ullam. Quis, maiores corrupti. Rerum quo laudantium vero magnam tempora!
-                     </p>
-                     <a class="button-solid" href="/conttact.html">Get Free Quote</a>
+                     <div class="star-group">
+                        <span class="name">B Miller<span class="desc">Homeowner</span></span>
+                         <picture>
+                            <img aria-hidden="true" loading="lazy" decoding="async" src="/images/stars.svg" alt="stars" width="91" height="15">
+                         </picture>
+                     </div>
                 </div>
-                <picture class="image-box">
-                     <source media="(max-width: 600px)" srcset="/images/cabinets2-m.jpg">
-                     <source media="(min-width: 601px)" srcset="/images/cabinets2.jpg">
-                     <img aria-hidden="true" loading="lazy" decoding="async" src="/images/cabinets2.jpg" alt="cabinets" width="400" height="662">
-                 </picture>
+                <div class="review">
+                    <picture>
+                        <img class="profile" loading="lazy" decoding="async" src="/images/profile.svg" alt="" width="99" height="99">
+                     </picture>
+                     <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed recusandae rerum unde similique ratione sapiente necessitatibus natus mollitia nam iusto.
+                     </p>
+                     <div class="star-group">
+                        <span class="name">Vincent M.<span class="desc">Homeowner</span></span>
+                         <picture>
+                            <img aria-hidden="true" loading="lazy" decoding="async" src="/images/stars.svg" alt="stars" width="91" height="15">
+                         </picture>
+                     </div>
+                </div>
+                <div class="review">
+                    <picture>
+                        <img class="profile" loading="lazy" decoding="async" src="/images/profile.svg" alt="" width="99" height="99">
+                     </picture>
+                     <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed recusandae rerum unde similique ratione sapiente necessitatibus natus mollitia nam iusto.
+                     </p>
+                     <div class="star-group">
+                         <span class="name">Alex L.<span class="desc">Homeowner</span></span>
+                         <picture>
+                            <img aria-hidden="true" loading="lazy" decoding="async" src="/images/stars.svg" alt="stars" width="91" height="15">
+                         </picture>
+                     </div>
+                </div>
+                <div class="review">
+                    <picture>
+                        <img class="profile" loading="lazy" decoding="async" src="/images/profile-woman.svg" alt="" width="99" height="99">
+                     </picture>
+                     <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed recusandae rerum unde similique ratione sapiente necessitatibus natus mollitia nam iusto.
+                     </p>
+                     <div class="star-group">
+                        <span class="name">Arrieana M.<span class="desc">Homeowner</span></span>
+                         <picture>
+                            <img aria-hidden="true" loading="lazy" decoding="async" src="/images/stars.svg" alt="stars" width="91" height="15">
+                         </picture>
+                     </div>
+                </div>
+                <div class="review">
+                    <picture>
+                        <img class="profile" loading="lazy" decoding="async" src="/images/profile.svg" alt="" width="99" height="99">
+                     </picture>
+                     <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed recusandae rerum unde similique ratione sapiente necessitatibus natus mollitia nam iusto.
+                     </p>
+                     <div class="star-group">
+                        <span class="name">Leo N.<span class="desc">Homeowner</span></span>
+                         <picture>
+                            <img aria-hidden="true" loading="lazy" decoding="async" src="/images/stars.svg" alt="stars" width="91" height="15">
+                         </picture>
+                     </div>
+                </div>
+                <div class="review">
+                    <picture>
+                        <img class="profile" loading="lazy" decoding="async" src="/images/profile.svg" alt="" width="99" height="99">
+                     </picture>
+                     <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed recusandae rerum unde similique ratione sapiente necessitatibus natus mollitia nam iusto.
+                     </p>
+                     <div class="star-group">
+                         <span class="name">Brian A.<span class="desc">Homeowner</span></span>
+                         <picture>
+                            <img aria-hidden="true" loading="lazy" decoding="async" src="/images/stars.svg" alt="stars" width="91" height="15">
+                         </picture>
+                     </div>
+                </div>
             </div>
-       </section>
+        </section>
 
         <!-- ============================================ -->
         <!--             Final Call to Action             -->
